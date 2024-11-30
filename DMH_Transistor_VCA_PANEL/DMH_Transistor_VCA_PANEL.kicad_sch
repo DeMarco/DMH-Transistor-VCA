@@ -754,6 +754,140 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 101.6 179.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2060c0bd-f917-48f8-99db-c57280def0a9")
+		(property "Reference" "H14"
+			(at 104.14 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Function"
+			(at 104.14 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 104.14 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "107b1c20-0415-42de-b39a-ab6c5afeb54c")
+		)
+		(instances
+			(project "DMH_Transistor_VCA_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 76.2 215.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32a45464-fa39-4808-8063-1251cce1c06c")
+		(property "Reference" "H17"
+			(at 78.74 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CV 1"
+			(at 78.74 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 76.2 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 78.74 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "bd942b32-e863-4ea5-9405-c66e2a2bb7c7")
+		)
+		(instances
+			(project "DMH_Transistor_VCA_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
 		(at 88.9 90.17 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -771,7 +905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Function"
+		(property "Value" "Offset"
 			(at 91.44 88.8999 0)
 			(effects
 				(font
@@ -780,7 +914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Medium_v2"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
 			(at 88.9 90.17 0)
 			(effects
 				(font
@@ -838,7 +972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIGNAL NAME"
+		(property "Value" "Input"
 			(at 66.04 126.9999 0)
 			(effects
 				(font
@@ -971,7 +1105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIGNAL NAME"
+		(property "Value" "CV 1"
 			(at 78.74 139.6999 0)
 			(effects
 				(font
@@ -1014,6 +1148,73 @@
 			(project ""
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 63.5 203.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8873741a-8a28-4ad6-92e2-b7f510e8e48c")
+		(property "Reference" "H15"
+			(at 66.04 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Input"
+			(at 66.04 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 63.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 66.04 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "ceed0b79-8928-4165-8cc2-f1cdc4b3179b")
+		)
+		(instances
+			(project "DMH_Transistor_VCA_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -1088,6 +1289,73 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 101.6 215.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "982ab1ec-025e-4067-93d0-c2fa4f46692e")
+		(property "Reference" "H18"
+			(at 104.14 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CV 2"
+			(at 104.14 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 101.6 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 104.14 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "309fa4d1-4ae6-4014-bcb8-55d1bbed45ac")
+		)
+		(instances
+			(project "DMH_Transistor_VCA_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
 		(at 101.6 139.7 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1105,7 +1373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIGNAL NAME"
+		(property "Value" "CV 2"
 			(at 104.14 139.6999 0)
 			(effects
 				(font
@@ -1239,7 +1507,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIGNAL NAME"
+		(property "Value" "Output"
 			(at 116.84 126.9999 0)
 			(effects
 				(font
@@ -1248,7 +1516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 114.3 127 0)
 			(effects
 				(font
@@ -1349,6 +1617,73 @@
 			(project ""
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 76.2 179.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d851e022-d99b-4fe6-a2b6-4cbaea27734b")
+		(property "Reference" "H13"
+			(at 78.74 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Function"
+			(at 78.74 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_attv"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 78.74 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "ba68c587-6091-4339-9636-7b050251d727")
+		)
+		(instances
+			(project "DMH_Transistor_VCA_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -1495,6 +1830,140 @@
 			(project ""
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "J0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 88.9 166.37 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f77e7eb3-204c-41f4-b436-785ad7bc1e96")
+		(property "Reference" "H12"
+			(at 91.44 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Offset"
+			(at 91.44 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 91.44 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a1d36fc5-b8bd-4bbd-a322-0aa893e6320e")
+		)
+		(instances
+			(project "DMH_Transistor_VCA_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 114.3 203.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9a82268-7170-4f77-bf62-f509cec6a7a4")
+		(property "Reference" "H16"
+			(at 116.84 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Output"
+			(at 116.84 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+			(at 114.3 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 116.84 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a1e2d4c7-805a-4423-86f7-242115b1c44a")
+		)
+		(instances
+			(project "DMH_Transistor_VCA_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H16")
 					(unit 1)
 				)
 			)
