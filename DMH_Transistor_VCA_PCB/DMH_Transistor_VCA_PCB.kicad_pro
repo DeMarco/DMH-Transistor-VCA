@@ -445,7 +445,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH-Kosmo-5cm-PCB.kicad_pro",
+    "filename": "DMH_Transistor_VCA_PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -639,11 +639,15 @@
     ],
     [
       "7ad2d702-dfb7-4d49-a82d-34430dd5948f",
-      "Core Circuit"
+      "Core Circuit A"
     ],
     [
       "0cdf34b2-39cd-4d9e-981a-97cd34791509",
       "Power"
+    ],
+    [
+      "7915b580-c9b0-4472-ab9c-d9fb99b1a92f",
+      "Core Circuit B"
     ]
   ],
   "text_variables": {}

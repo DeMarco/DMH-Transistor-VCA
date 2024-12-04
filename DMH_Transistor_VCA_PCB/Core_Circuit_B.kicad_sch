@@ -2665,7 +2665,7 @@
 		)
 		(uuid "e628385d-4ccf-4cf4-a4de-a9df94a66867")
 	)
-	(hierarchical_label "CV 1 A Input"
+	(hierarchical_label "CV 1 B Input"
 		(shape input)
 		(at 27.94 48.26 180)
 		(fields_autoplaced yes)
@@ -2677,7 +2677,7 @@
 		)
 		(uuid "06208f5c-2608-466f-abd8-14898abf6fb9")
 	)
-	(hierarchical_label "CV 2 A Input"
+	(hierarchical_label "CV 2 B Input"
 		(shape input)
 		(at 27.94 86.36 180)
 		(fields_autoplaced yes)
@@ -2689,7 +2689,7 @@
 		)
 		(uuid "49d7727d-f310-4046-a601-e59abb64387a")
 	)
-	(hierarchical_label "Output A"
+	(hierarchical_label "Output B"
 		(shape output)
 		(at 266.7 50.8 0)
 		(fields_autoplaced yes)
@@ -2701,7 +2701,7 @@
 		)
 		(uuid "5124dcde-cf1b-4118-a45a-25d1ec5f6625")
 	)
-	(hierarchical_label "Input A"
+	(hierarchical_label "Input B"
 		(shape input)
 		(at 124.46 76.2 180)
 		(fields_autoplaced yes)
@@ -2775,13 +2775,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "042bb5db-8f89-4712-a423-947c89b3ece8")
+			(uuid "9ac9f4d9-07bd-40f4-bc44-cce07172b925")
 		)
 		(pin "2"
-			(uuid "1e3a6928-7f5b-445c-9852-0f3a5edeec33")
+			(uuid "398bf6fe-9604-4dfe-a4b7-3024695a2d5a")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R29")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R20")
 					(unit 1)
@@ -2851,13 +2855,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "b19e3e93-a6ea-45a2-902e-a8b7e87a62f6")
+			(uuid "60d7d8b3-536d-4559-9313-263ef8c7f1df")
 		)
 		(pin "2"
-			(uuid "1e65a3a2-1389-44a0-aa19-5d2e96fbba4d")
+			(uuid "0088e734-2d7b-4a17-b436-a49fef634423")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R25")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R18")
 					(unit 1)
@@ -2927,13 +2935,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "fdd908c4-0652-420a-846b-fc40c98bf706")
+			(uuid "8e731723-34b0-4ca8-a42d-b73e2e0e0c27")
 		)
 		(pin "2"
-			(uuid "aa4d9f38-40cb-40ac-8354-18698891a26d")
+			(uuid "6a30907e-70e6-429c-b1e8-31ac1d0dfd7b")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R33")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R11")
 					(unit 1)
@@ -2995,13 +3007,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "aaf0ba5f-f7f8-4c1a-9729-4e12744020ad")
+			(uuid "2dc37b5a-a1be-499a-a385-edad892a1efe")
 		)
 		(pin "2"
-			(uuid "a8fc5d4c-223d-4322-b63a-58ab2f9779c2")
+			(uuid "df7fd547-71a4-43af-ba38-a0b1b46e0092")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R41")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R8")
 					(unit 1)
@@ -3064,10 +3080,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8e0baf7-f3e8-4f7b-a914-a7327e5ce10a")
+			(uuid "9e8c7b46-6f2f-4d5e-ae89-4849123c3638")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR022")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR019")
 					(unit 1)
@@ -3130,10 +3150,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2709f65a-ed7b-446c-88f8-fa241925f9ad")
+			(uuid "4d60ba0e-4d76-4d53-a3cd-bd65cc4deae3")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR024")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR020")
 					(unit 1)
@@ -3196,10 +3220,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "32c20096-032e-4b72-9721-76f6cd405ad9")
+			(uuid "01e11f6d-05c0-4eca-a782-c1f5908dd2ca")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR027")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR010")
 					(unit 1)
@@ -3263,13 +3291,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d6601fd-6e91-4e64-910c-b4d6d4fcb625")
+			(uuid "fd5fc923-7e87-43ae-acd8-af32a68f4475")
 		)
 		(pin "2"
-			(uuid "e6bb9523-4415-44aa-a32f-f3eb1cbc2ec9")
+			(uuid "a83edd25-aa7b-4d06-8b25-edba3236bf03")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R35")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R10")
 					(unit 1)
@@ -3332,7 +3364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "CV 1 A Amount"
+		(property "Function" "CV 1 B Amount"
 			(at 22.606 57.15 0)
 			(effects
 				(font
@@ -3344,16 +3376,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4634e96-49fe-4f75-b116-a13a8eac8f02")
+			(uuid "7eb3dcd9-8b33-4087-9ae6-b7f07f0d5d5d")
 		)
 		(pin "2"
-			(uuid "5cc54bc1-16ae-4356-bb63-0149611da285")
+			(uuid "2d3e802b-4a46-4869-8845-69e028166d1f")
 		)
 		(pin "3"
-			(uuid "a55c95cc-6665-49c4-842b-e1c35a2337ec")
+			(uuid "537bc61c-2e81-4858-8237-1e17fa3fe023")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "RV5")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV1")
 					(unit 1)
@@ -3415,13 +3451,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "c890a347-475f-4c31-a247-b06ba4d3071b")
+			(uuid "150ce23e-0969-4503-8799-9f2b319f18bc")
 		)
 		(pin "2"
-			(uuid "c879fd12-7d7b-4c21-bb83-5207de810fcc")
+			(uuid "48873285-5816-49dd-b3ea-eed9967643cd")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R30")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R17")
 					(unit 1)
@@ -3483,13 +3523,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "c26b2278-3d89-4f55-888e-71610ab02222")
+			(uuid "650bca28-964a-4075-938a-b8400bf12cc0")
 		)
 		(pin "2"
-			(uuid "86546528-7f14-4435-9f0a-53124185703c")
+			(uuid "7cf02569-1349-4376-851e-bce304d7c357")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R38")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R6")
 					(unit 1)
@@ -3551,13 +3595,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb7d8096-fe28-4946-a994-f969d7499b0e")
+			(uuid "71c1c1ea-94a0-4c4b-8d01-c45a719c622d")
 		)
 		(pin "2"
-			(uuid "09897b2e-b9ee-4d88-8c2a-afbba7c601fc")
+			(uuid "1d6fd7f1-8d64-4bfa-bf42-0a3e689afdb9")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R28")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R3")
 					(unit 1)
@@ -3620,10 +3668,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "267b4ddf-991f-4be3-bb23-558dcf3b2284")
+			(uuid "50749717-6b8c-4179-aa5c-e1d325678d65")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR025")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR011")
 					(unit 1)
@@ -3691,16 +3743,20 @@
 			)
 		)
 		(pin "3"
-			(uuid "3ca8a64f-b3c1-4175-a280-4a9d34a4f4a8")
+			(uuid "6d13fda9-7031-4818-805d-966d13d66979")
 		)
 		(pin "2"
-			(uuid "45bb09c1-58d7-4fc6-bec1-3accec1ed771")
+			(uuid "e4be8158-3a29-483a-a901-17728bcda4ef")
 		)
 		(pin "1"
-			(uuid "e6a548ba-56e1-4d62-bef0-cf527e89a268")
+			(uuid "57adb85e-bee3-4ca5-90cd-e27b65f69a5a")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "Q4")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "Q2")
 					(unit 1)
@@ -3763,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Offset A"
+		(property "Function" "Offset B"
 			(at 68.834 124.46 0)
 			(effects
 				(font
@@ -3775,16 +3831,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3a5c7e3-b35d-4abf-b247-c3321b7e392f")
+			(uuid "805e0a38-f8c5-4ac8-97e8-1a207be87e73")
 		)
 		(pin "3"
-			(uuid "bb534511-80d5-412e-8c0d-f73842a3b660")
+			(uuid "7fcddff9-e151-47c5-9d19-98719bf4cdee")
 		)
 		(pin "2"
-			(uuid "6a588ded-ddea-4280-9a67-e621620f09a2")
+			(uuid "6d3909c0-6b29-4421-a552-aebed12a9290")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "RV8")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV3")
 					(unit 1)
@@ -3847,10 +3907,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba68288c-782b-4de2-827e-6046c4cdac9b")
+			(uuid "60dcce93-6cb4-44f2-802d-5d38f4b5e875")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR030")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR04")
 					(unit 1)
@@ -3912,13 +3976,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3080dea-8c6c-4ffc-aa35-1b2f8b27aa54")
+			(uuid "e465f7ee-ad60-4770-96e6-d188a4ce6d8f")
 		)
 		(pin "2"
-			(uuid "f2eceaa8-2b2f-493d-a68e-9726af04993e")
+			(uuid "c21f4780-b14c-4ea6-b73c-a54ba0f3a400")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R42")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R7")
 					(unit 1)
@@ -3990,13 +4058,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "3829cbd3-34f5-46f4-811a-3c898126bc6b")
+			(uuid "36b78d65-2590-4c70-9010-b8ad2a7bc2f3")
 		)
 		(pin "2"
-			(uuid "b908d487-231a-4544-b0f9-30092fbaa1ba")
+			(uuid "db30de30-8030-45f8-845e-b0f13d4e6aca")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R23")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R15")
 					(unit 1)
@@ -4059,10 +4131,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd9c655b-342c-4dea-b0c9-b2194906cdd3")
+			(uuid "ebc3214b-dd83-478d-8ded-626d33fe94bb")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR023")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR01")
 					(unit 1)
@@ -4126,13 +4202,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a38233e-2858-4f5c-8589-5676161c1440")
+			(uuid "e0cc484c-816b-4774-b495-260630ff5e42")
 		)
 		(pin "2"
-			(uuid "b8106633-fdfe-4f96-b31e-d7881a69e325")
+			(uuid "24bcc09d-41b4-441c-8e70-a6f204b98c5b")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R39")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R9")
 					(unit 1)
@@ -4194,13 +4274,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "1556e1dd-5518-4c63-91a4-52adc4aef9bc")
+			(uuid "53159b0f-9967-4265-a2cf-edcf7cb54df4")
 		)
 		(pin "2"
-			(uuid "4c3afaff-e395-4d6b-b149-d69a49c24871")
+			(uuid "156dca65-28fe-41dd-9883-e3cfdf9c3f5d")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R24")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R1")
 					(unit 1)
@@ -4264,13 +4348,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "98107297-8790-4a56-b2ee-8e680bc91946")
+			(uuid "10518e6f-1071-4fd9-9fac-534833be9b6d")
 		)
 		(pin "2"
-			(uuid "09a1be7f-151c-4164-aed5-787a7991e900")
+			(uuid "acb5fa09-7c21-4c2e-a843-1be57a9118fb")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R36")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R13")
 					(unit 1)
@@ -4335,13 +4423,13 @@
 			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d710")
 		)
 		(pin "3"
-			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda63f")
+			(uuid "ce608afb-4cf3-4167-b0ab-a66513f687db")
 		)
 		(pin "7"
 			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b00")
 		)
 		(pin "2"
-			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f4")
+			(uuid "1a14c5cb-6841-4dd6-b1ba-1ba19c623240")
 		)
 		(pin "11"
 			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289c")
@@ -4365,7 +4453,7 @@
 			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ec")
 		)
 		(pin "1"
-			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3525")
+			(uuid "01daefa5-15d2-4a67-896c-cd8a624cb50e")
 		)
 		(pin "6"
 			(uuid "74056594-cf30-420a-a602-8a1cf2c71429")
@@ -4374,7 +4462,11 @@
 			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2e")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "U2")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
 					(unit 1)
@@ -4436,49 +4528,53 @@
 			)
 		)
 		(pin "8"
-			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d710")
+			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d711")
 		)
 		(pin "3"
-			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda63f")
+			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda640")
 		)
 		(pin "7"
-			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b00")
+			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b01")
 		)
 		(pin "2"
-			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f4")
+			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f5")
 		)
 		(pin "11"
-			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289c")
+			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289d")
 		)
 		(pin "4"
-			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0a")
+			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0b")
 		)
 		(pin "13"
-			(uuid "93474525-8eb5-410e-bd0d-de0163d8eeef")
+			(uuid "6d55448e-5413-4c66-9075-6a1ae9ad7599")
 		)
 		(pin "9"
-			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f4")
+			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f5")
 		)
 		(pin "12"
-			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a1")
+			(uuid "ad4e6e84-3cd5-4f79-bc36-e5f3eac35431")
 		)
 		(pin "14"
-			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a847")
+			(uuid "f3801c85-23cf-4367-a976-95ec95a8a415")
 		)
 		(pin "10"
-			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ec")
+			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ed")
 		)
 		(pin "1"
-			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3525")
+			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3526")
 		)
 		(pin "6"
-			(uuid "74056594-cf30-420a-a602-8a1cf2c71429")
+			(uuid "74056594-cf30-420a-a602-8a1cf2c7142a")
 		)
 		(pin "5"
-			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2e")
+			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2f")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "U2")
+					(unit 4)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
 					(unit 4)
@@ -4541,7 +4637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "CV 2 A Amount"
+		(property "Function" "CV 2 B Amount"
 			(at 22.098 95.25 0)
 			(effects
 				(font
@@ -4553,16 +4649,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "42df5f74-56c4-4e08-8f78-43d250b97c59")
+			(uuid "3c80bd1e-f628-4d92-9913-00c465e19949")
 		)
 		(pin "2"
-			(uuid "7629ff9a-68cb-43cb-bacb-1f00c4e0cc50")
+			(uuid "eaa77e5f-1858-4994-a4a1-5ae5eaefb63a")
 		)
 		(pin "3"
-			(uuid "a4d73911-46c3-416a-b029-c7089b8539a2")
+			(uuid "948193e1-cc94-4c56-b890-d0b2d7d1c334")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "RV7")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV2")
 					(unit 1)
@@ -4624,49 +4724,53 @@
 			)
 		)
 		(pin "8"
-			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d710")
+			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d712")
 		)
 		(pin "3"
-			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda63f")
+			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda641")
 		)
 		(pin "7"
-			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b00")
+			(uuid "828ffdbe-5578-44ea-b181-14e97471fcdb")
 		)
 		(pin "2"
-			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f4")
+			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f6")
 		)
 		(pin "11"
-			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289c")
+			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289e")
 		)
 		(pin "4"
-			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0a")
+			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0c")
 		)
 		(pin "13"
-			(uuid "93474525-8eb5-410e-bd0d-de0163d8eeef")
+			(uuid "93474525-8eb5-410e-bd0d-de0163d8eef1")
 		)
 		(pin "9"
-			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f4")
+			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f6")
 		)
 		(pin "12"
-			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a1")
+			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a3")
 		)
 		(pin "14"
-			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a847")
+			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a849")
 		)
 		(pin "10"
-			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ec")
+			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ee")
 		)
 		(pin "1"
-			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3525")
+			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3527")
 		)
 		(pin "6"
-			(uuid "74056594-cf30-420a-a602-8a1cf2c71429")
+			(uuid "548fe3c4-da71-48db-acd2-e3cc8cf24fbe")
 		)
 		(pin "5"
-			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2e")
+			(uuid "e48522a2-22f0-4e78-ac74-5c01720aa0ea")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "U2")
+					(unit 2)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
 					(unit 2)
@@ -4693,7 +4797,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer_Trim_US"
+		(property "Value" "100k"
 			(at 212.09 90.1699 0)
 			(effects
 				(font
@@ -4730,16 +4834,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e02cd53-d167-49e3-8a0d-5cd292dc3a4d")
+			(uuid "59257f89-8d2b-418f-a8ad-eefa57126d8a")
 		)
 		(pin "1"
-			(uuid "7e736a50-4adb-4e60-a7ea-222a29547e10")
+			(uuid "3a0b8efc-2c21-44c6-a5b0-387fc68b8461")
 		)
 		(pin "3"
-			(uuid "d99708a8-5e31-4c26-8381-1f3dae0a354f")
+			(uuid "591f71d9-caaf-4b3b-a0ef-b57b201f5ae7")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "RV6")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "RV4")
 					(unit 1)
@@ -4801,13 +4909,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "595f0af6-43d9-4089-8537-b8eccdfe80d1")
+			(uuid "43bc5b80-9869-4ce6-9d19-8decc60d5c90")
 		)
 		(pin "2"
-			(uuid "e359eccb-715d-4859-9841-7020c0558301")
+			(uuid "bcc84f0a-b027-4e62-9050-e8050c8bc03f")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R27")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R2")
 					(unit 1)
@@ -4874,16 +4986,20 @@
 			)
 		)
 		(pin "3"
-			(uuid "7817d57d-d2b5-4128-b417-50936a8adb18")
+			(uuid "fcabb56d-6338-4b0b-9b0a-84f152580f26")
 		)
 		(pin "1"
-			(uuid "4d6e1d23-0f70-42a0-af29-0ca12c87cc6a")
+			(uuid "d95c4ab6-f4c8-43eb-927e-9ed602d6c93f")
 		)
 		(pin "2"
-			(uuid "626704ad-7641-47f9-8e8a-cd8b8fcf07e5")
+			(uuid "3422616c-add5-47c7-ab3c-ef06e36c1703")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "Q3")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "Q1")
 					(unit 1)
@@ -4953,13 +5069,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "20c10fcc-ac89-44d3-b309-d51357d73fd5")
+			(uuid "78e03208-82f7-4d8d-b3e9-7307c3aceb68")
 		)
 		(pin "2"
-			(uuid "bfd587d2-a7d4-43b4-a793-8e49a18d54df")
+			(uuid "bafe5dba-95c0-46bc-9f9a-593d72db52cf")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R34")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R12")
 					(unit 1)
@@ -5031,13 +5151,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb137db4-1f95-4789-ac82-8a781c4909e6")
+			(uuid "1afc694c-6e60-41f1-bb0c-ed6a656d9ef3")
 		)
 		(pin "2"
-			(uuid "e1b754f3-a744-4e9a-946b-ab638e89873c")
+			(uuid "b14e1d21-7bea-41c9-a535-90180e631c86")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R31")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R19")
 					(unit 1)
@@ -5100,10 +5224,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c813425-e67e-4aca-a720-3153052ee9f0")
+			(uuid "1ed79b15-276f-46b5-aa55-09fd6dc29704")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR028")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR012")
 					(unit 1)
@@ -5167,13 +5295,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bde5a72-564d-4932-a1dd-ca65208ba35b")
+			(uuid "dc652641-9de2-4439-bb71-8f9e92f2ee6e")
 		)
 		(pin "2"
-			(uuid "17ecaa2f-e7c9-4588-ba0a-08cb6c803815")
+			(uuid "6ceebbe7-8822-4624-86b1-c652cb6aa501")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R40")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R21")
 					(unit 1)
@@ -5235,49 +5367,53 @@
 			)
 		)
 		(pin "8"
-			(uuid "e1c913a4-804f-4bbf-9bba-e89bb044d710")
+			(uuid "11f05ae1-d8ee-466a-bfe4-fbddf61c0b1c")
 		)
 		(pin "3"
-			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda63f")
+			(uuid "a370fb42-5bef-4940-b66f-5b9a17cda642")
 		)
 		(pin "7"
-			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b00")
+			(uuid "5bb694ad-37b8-441c-809b-e03cd9910b03")
 		)
 		(pin "2"
-			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f4")
+			(uuid "7153347d-07c3-4370-9e83-3ee077ff25f7")
 		)
 		(pin "11"
-			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289c")
+			(uuid "904d953d-4311-4d60-ae03-b1fc98e3289f")
 		)
 		(pin "4"
-			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0a")
+			(uuid "22cec1ec-6222-4f8f-a0cc-70d45005bb0d")
 		)
 		(pin "13"
-			(uuid "93474525-8eb5-410e-bd0d-de0163d8eeef")
+			(uuid "93474525-8eb5-410e-bd0d-de0163d8eef2")
 		)
 		(pin "9"
-			(uuid "6cad6e1e-d883-4144-8cfb-5b554f86d2f4")
+			(uuid "430cee2a-ef28-44b6-a5c3-528a23a81c7b")
 		)
 		(pin "12"
-			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a1")
+			(uuid "94807337-5838-4dc3-b872-e2cddd2ab4a4")
 		)
 		(pin "14"
-			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a847")
+			(uuid "f816e493-82f0-4986-bfc1-cf82f1a5a84a")
 		)
 		(pin "10"
-			(uuid "4d61f646-cdb5-4a70-af40-bc651b4760ec")
+			(uuid "3a76d2c0-3a65-4d8d-a2e3-8b03457ae1f4")
 		)
 		(pin "1"
-			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3525")
+			(uuid "e30d8d3d-96e0-4452-b6ef-ef9a16aa3528")
 		)
 		(pin "6"
-			(uuid "74056594-cf30-420a-a602-8a1cf2c71429")
+			(uuid "74056594-cf30-420a-a602-8a1cf2c7142c")
 		)
 		(pin "5"
-			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2e")
+			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba31")
 		)
 		(instances
-			(project ""
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "U2")
+					(unit 3)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
 					(unit 3)
@@ -5340,10 +5476,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9acac571-082d-4094-bb99-7cc10d2c7ed0")
+			(uuid "8cb26b64-4b69-478a-a285-9259902cac17")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR029")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR02")
 					(unit 1)
@@ -5406,10 +5546,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ae2be44-4b4c-453f-bea4-a92075772b58")
+			(uuid "f34b5ab7-9694-481a-b642-764e76a25efa")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR026")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR09")
 					(unit 1)
@@ -5472,10 +5616,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "704aecfa-b50a-4676-bf3f-29fce37a242a")
+			(uuid "aa878f37-e2e0-45db-b145-21038cf75509")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR031")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR03")
 					(unit 1)
@@ -5537,13 +5685,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "03defcdb-fd63-4f7a-85f4-ce45c4147613")
+			(uuid "d26b3518-dd48-4ce7-8b42-5407f1491fba")
 		)
 		(pin "2"
-			(uuid "2d2b6c80-a2d9-4527-9612-5ab9fb5e10f8")
+			(uuid "6cc0e6ba-1f08-4023-aa18-b123d1c85ab5")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R26")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R16")
 					(unit 1)
@@ -5615,13 +5767,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3f2af7c-513f-4a9a-b8e5-0650796ef712")
+			(uuid "8ffd9a20-78a9-428c-8eab-0967f1b2a473")
 		)
 		(pin "2"
-			(uuid "62837c9a-8164-4e9f-9991-bc1a045e7951")
+			(uuid "d0d6d617-bbe8-43c7-9dda-87fec756bedb")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R22")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R14")
 					(unit 1)
@@ -5683,13 +5839,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "542cfa34-9e06-4355-bd03-7606bc60b24d")
+			(uuid "ad200c67-0bcc-4dba-8181-00f508337a72")
 		)
 		(pin "2"
-			(uuid "0c71e25b-eab5-4516-998d-8ddf0d94da3d")
+			(uuid "f64de817-942f-4350-835b-44c419f1f815")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R37")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R5")
 					(unit 1)
@@ -5752,10 +5912,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "75de7129-479c-4106-9fd1-7acf7ad2fe1d")
+			(uuid "b45f9ad2-99c6-457b-8dcb-d75c7120f175")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "#PWR032")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR021")
 					(unit 1)
@@ -5817,13 +5981,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "41b9ee8c-3e42-47e7-b315-509d0b5ca919")
+			(uuid "b9cc61f6-0063-4b38-bbb6-40233957000a")
 		)
 		(pin "2"
-			(uuid "fa992bed-7555-4ec2-94b9-6042a11f6772")
+			(uuid "35a1bd1f-f641-480d-bc7a-157eae5e0b0a")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
+					(reference "R32")
+					(unit 1)
+				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R4")
 					(unit 1)
