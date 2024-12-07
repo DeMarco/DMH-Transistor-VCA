@@ -10,6 +10,126 @@
 		(comment 1 "PCB for 5 cm Kosmo format synthesizer module")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 50.8 137.16) (xy 63.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b435a09-f8f3-43e9-86f7-b34f99771b2f")
+	)
+	(wire
+		(pts
+			(xy 50.8 132.08) (xy 63.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba9c8d3-6a4d-4dcd-be78-649b2efeef64")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15bfaebd-f0b4-4d2c-b8e0-056ced5a13cb")
+	)
+	(wire
+		(pts
+			(xy 50.8 142.24) (xy 63.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aef010f-d43d-4e35-b562-04efe12bbbe3")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f80389b-bfff-442c-9bc6-ecbf9de9dbf0")
+	)
+	(wire
+		(pts
+			(xy 50.8 127) (xy 63.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8811e99f-2636-40f5-8aaa-5b2d5744fb29")
+	)
+	(wire
+		(pts
+			(xy 50.8 114.3) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db5c9be-e5f8-4b5e-aaa4-56a646aafade")
+	)
+	(wire
+		(pts
+			(xy 50.8 78.74) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7196d4-d95e-49c3-854a-7536ea6043bc")
+	)
+	(wire
+		(pts
+			(xy 50.8 119.38) (xy 63.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c696d3fa-bfc7-4641-9ed2-b5eda3d62d81")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc81f8e7-5dbf-4128-9df2-6265282a141c")
+	)
+	(wire
+		(pts
+			(xy 50.8 73.66) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11689bd-81fd-4bda-9288-5562cdf98610")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 63.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b346f3-6b32-4f9f-a5b6-8a2b8c3d7726")
+	)
 	(sheet
 		(at 127 88.9)
 		(size 25.4 25.4)
@@ -81,7 +201,7 @@
 			)
 		)
 		(pin "CV 1 B Input" input
-			(at 63.5 137.16 180)
+			(at 63.5 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +211,7 @@
 			(uuid "6cac8ff8-7705-4901-b56d-ee3e53572ebe")
 		)
 		(pin "CV 2 B Input" input
-			(at 63.5 142.24 180)
+			(at 63.5 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,7 +221,7 @@
 			(uuid "6f76309e-63f3-418a-a1b7-909e22303cf2")
 		)
 		(pin "Input B" input
-			(at 63.5 124.46 180)
+			(at 63.5 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +231,7 @@
 			(uuid "2f59276e-9d62-4848-8a97-d032a9319958")
 		)
 		(pin "Output B" output
-			(at 63.5 129.54 180)
+			(at 63.5 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,6 +239,26 @@
 				(justify left)
 			)
 			(uuid "2dec7a26-5e38-4644-bb5e-87b15fedeb3c")
+		)
+		(pin "CV 1 B Pot" input
+			(at 63.5 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39ecad29-b510-4810-836c-d8dadb822d52")
+		)
+		(pin "CV 2 B Pot" input
+			(at 63.5 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8a2790d-2bc5-48df-a0f7-fb307d324973")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
@@ -170,7 +310,7 @@
 			(uuid "89ec80bc-ac70-4ecd-84d6-8e74e7942551")
 		)
 		(pin "CV 2 A Input" input
-			(at 63.5 78.74 180)
+			(at 63.5 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,6 +339,26 @@
 			)
 			(uuid "33089191-6823-4a8c-9c8f-1f3781aa5eff")
 		)
+		(pin "CV 1 A Pot" input
+			(at 63.5 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94020e44-e5b5-40c2-9b15-3533fd7e7559")
+		)
+		(pin "CV 2 A Pot" input
+			(at 63.5 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17057fc2-48ee-4be0-8441-40fdd59b7e6b")
+		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
@@ -208,8 +368,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 76.2)
-		(size 25.4 50.8)
+		(at 25.4 50.8)
+		(size 25.4 101.6)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -220,7 +380,7 @@
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
 		(property "Sheetname" "Inputs and Outputs"
-			(at 25.4 75.4884 0)
+			(at 25.4 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,7 +389,7 @@
 			)
 		)
 		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
-			(at 25.4 127.5846 0)
+			(at 25.4 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,6 +397,126 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "CV 2 A Jack" output
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0876cba7-f5cc-475c-ab22-ceae04ecc34b")
+		)
+		(pin "CV 1 A Jack" output
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fb6e4db-af9a-4676-b84c-b579f03ead3c")
+		)
+		(pin "CV 2 A Pot" output
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36af97bd-604d-42f6-a3f1-07e91d753459")
+		)
+		(pin "CV 1 A Pot" output
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cbae3b18-b480-4ac1-b949-d4ea23dd4b8b")
+		)
+		(pin "Input B Jack" output
+			(at 50.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6501641-ec55-465c-893b-68fd23147e67")
+		)
+		(pin "Output B Jack" input
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "68ea9cbf-ef7a-46f3-8221-b78877bb776e")
+		)
+		(pin "Output A Jack" input
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7594608-d5fc-41b1-8d8b-cf78766579d3")
+		)
+		(pin "Input A Jack" output
+			(at 50.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d39c7558-17c9-40ea-8156-06055b5768fe")
+		)
+		(pin "CV 1 B Jack" output
+			(at 50.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "74dddd83-c036-43e7-9cac-2a1c249e18fe")
+		)
+		(pin "CV 2 B Jack" output
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d69908c-1a5d-4f43-ae65-0cf6dfcc81fa")
+		)
+		(pin "CV 1 B Pot" output
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f57366f-1abc-4ab5-ac18-1cd5b7f470b1")
+		)
+		(pin "CV 2 B Pot" output
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8c6e1705-a94c-4ea0-9123-ae4e567f4e85")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
