@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 50.8 137.16) (xy 63.5 137.16)
+			(xy 50.8 139.7) (xy 63.5 139.7)
 		)
 		(stroke
 			(width 0)
@@ -22,7 +22,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 132.08) (xy 63.5 132.08)
+			(xy 50.8 134.62) (xy 63.5 134.62)
 		)
 		(stroke
 			(width 0)
@@ -32,7 +32,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 66.04) (xy 63.5 66.04)
+			(xy 50.8 63.5) (xy 63.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -42,13 +42,33 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 142.24) (xy 63.5 142.24)
+			(xy 50.8 144.78) (xy 63.5 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1aef010f-d43d-4e35-b562-04efe12bbbe3")
+	)
+	(wire
+		(pts
+			(xy 50.8 124.46) (xy 63.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7892b5-c869-4cdb-86ed-1a3c723a6826")
+	)
+	(wire
+		(pts
+			(xy 50.8 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3491dfa6-ff1d-47ef-828c-9ad85a9beb30")
 	)
 	(wire
 		(pts
@@ -62,7 +82,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 127) (xy 63.5 127)
+			(xy 50.8 129.54) (xy 63.5 129.54)
 		)
 		(stroke
 			(width 0)
@@ -102,7 +122,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 60.96) (xy 63.5 60.96)
+			(xy 50.8 58.42) (xy 63.5 58.42)
 		)
 		(stroke
 			(width 0)
@@ -201,7 +221,7 @@
 			)
 		)
 		(pin "CV 1 B Input" input
-			(at 63.5 127 180)
+			(at 63.5 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +231,7 @@
 			(uuid "6cac8ff8-7705-4901-b56d-ee3e53572ebe")
 		)
 		(pin "CV 2 B Input" input
-			(at 63.5 137.16 180)
+			(at 63.5 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +261,7 @@
 			(uuid "2dec7a26-5e38-4644-bb5e-87b15fedeb3c")
 		)
 		(pin "CV 1 B Pot" input
-			(at 63.5 132.08 180)
+			(at 63.5 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,7 +271,7 @@
 			(uuid "39ecad29-b510-4810-836c-d8dadb822d52")
 		)
 		(pin "CV 2 B Pot" input
-			(at 63.5 142.24 180)
+			(at 63.5 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,6 +279,16 @@
 				(justify left)
 			)
 			(uuid "b8a2790d-2bc5-48df-a0f7-fb307d324973")
+		)
+		(pin "Offset B Pot" input
+			(at 63.5 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05516ebd-e985-4cb8-8f34-985864f2ed91")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
@@ -320,7 +350,7 @@
 			(uuid "86a5c6bb-bfe1-4212-9ea8-00217a2af005")
 		)
 		(pin "Input A" input
-			(at 63.5 60.96 180)
+			(at 63.5 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +360,7 @@
 			(uuid "84f10de8-87eb-4579-91b9-925fbcf030fa")
 		)
 		(pin "Output A" output
-			(at 63.5 66.04 180)
+			(at 63.5 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,6 +388,16 @@
 				(justify left)
 			)
 			(uuid "17057fc2-48ee-4be0-8441-40fdd59b7e6b")
+		)
+		(pin "Offset A Pot" input
+			(at 63.5 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64bd53a8-97be-42b3-a1ff-ae1991314518")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
@@ -459,7 +499,7 @@
 			(uuid "68ea9cbf-ef7a-46f3-8221-b78877bb776e")
 		)
 		(pin "Output A Jack" input
-			(at 50.8 66.04 0)
+			(at 50.8 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +509,7 @@
 			(uuid "f7594608-d5fc-41b1-8d8b-cf78766579d3")
 		)
 		(pin "Input A Jack" output
-			(at 50.8 60.96 0)
+			(at 50.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +519,7 @@
 			(uuid "d39c7558-17c9-40ea-8156-06055b5768fe")
 		)
 		(pin "CV 1 B Jack" output
-			(at 50.8 127 0)
+			(at 50.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +529,7 @@
 			(uuid "74dddd83-c036-43e7-9cac-2a1c249e18fe")
 		)
 		(pin "CV 2 B Jack" output
-			(at 50.8 137.16 0)
+			(at 50.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -499,7 +539,7 @@
 			(uuid "0d69908c-1a5d-4f43-ae65-0cf6dfcc81fa")
 		)
 		(pin "CV 1 B Pot" output
-			(at 50.8 132.08 0)
+			(at 50.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +549,7 @@
 			(uuid "7f57366f-1abc-4ab5-ac18-1cd5b7f470b1")
 		)
 		(pin "CV 2 B Pot" output
-			(at 50.8 142.24 0)
+			(at 50.8 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,6 +557,26 @@
 				(justify right)
 			)
 			(uuid "8c6e1705-a94c-4ea0-9123-ae4e567f4e85")
+		)
+		(pin "Offset B Pot" output
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25294123-79ce-4328-9ac0-6b6dec4ddfbc")
+		)
+		(pin "Offset A Pot" output
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1072b35-f793-44bc-9b81-f3d6cee013ce")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB"

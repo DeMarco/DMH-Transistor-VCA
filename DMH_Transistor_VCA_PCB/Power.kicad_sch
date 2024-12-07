@@ -2633,6 +2633,28 @@
 		)
 		(uuid "fef72475-cf08-4c28-9138-bee6a11a6492")
 	)
+	(rectangle
+		(start 138.43 168.91)
+		(end 166.37 196.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 45d665d8-91d0-43ab-b6c3-29a86ac97ea3)
+	)
+	(text "Pots PCB"
+		(exclude_from_sim no)
+		(at 143.51 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8c9a334-6e7d-4837-aeb4-0df3b0757809")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 38.1 107.95 0)
@@ -2849,7 +2871,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "2569edd0-1c9d-49fe-b01a-8ea1b7b9a0d7")
 		(property "Reference" "J0"
