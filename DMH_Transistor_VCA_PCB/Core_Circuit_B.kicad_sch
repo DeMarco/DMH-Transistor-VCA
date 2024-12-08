@@ -4032,7 +4032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac6b7b0-f583-4a49-bdba-2c3f9d7b9407")
-		(property "Reference" "RV6"
+		(property "Reference" "RV8"
 			(at 212.09 87.6299 0)
 			(effects
 				(font
@@ -4089,7 +4089,7 @@
 		(instances
 			(project "DMH_Transistor_VCA_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7915b580-c9b0-4472-ab9c-d9fb99b1a92f"
-					(reference "RV6")
+					(reference "RV8")
 					(unit 1)
 				)
 			)
