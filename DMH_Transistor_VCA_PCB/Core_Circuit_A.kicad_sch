@@ -1318,6 +1318,12 @@
 		(uuid "24ca4a91-240d-44bf-9a67-5f5e4b005f55")
 	)
 	(junction
+		(at 83.82 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e0422dc-0693-4445-9c51-29d3f7e9f40c")
+	)
+	(junction
 		(at 177.8 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1395,6 +1401,12 @@
 		(color 0 0 0 0)
 		(uuid "fb5348e4-ee3e-448d-97fa-541bb7a3dc6d")
 	)
+	(junction
+		(at 83.82 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb5de48b-2428-490e-99a5-9c87b19ec706")
+	)
 	(wire
 		(pts
 			(xy 165.1 97.79) (xy 177.8 97.79)
@@ -1454,6 +1466,16 @@
 			(type default)
 		)
 		(uuid "0a4de763-f7ec-4b4e-adf0-fed8b34d095d")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3fa926-3473-46ed-a71f-0476902539bf")
 	)
 	(wire
 		(pts
@@ -1554,6 +1576,16 @@
 			(type default)
 		)
 		(uuid "2a49b1da-fa18-49c3-b3a3-2350159ba958")
+	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 83.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a650e6f-0c05-4cc1-85e2-c89521168f4e")
 	)
 	(wire
 		(pts
@@ -1704,6 +1736,16 @@
 			(type default)
 		)
 		(uuid "5e261198-8f5b-4744-b078-03dc57dd3066")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eada0b6-558a-4b25-bc54-3eacb7458b45")
 	)
 	(wire
 		(pts
@@ -2104,6 +2146,16 @@
 			(type default)
 		)
 		(uuid "cfcfdf51-9697-4154-9521-acb0e2a57d95")
+	)
+	(wire
+		(pts
+			(xy 76.2 44.45) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42fd15e-b3a7-46d9-9cc3-e406ac7f7756")
 	)
 	(wire
 		(pts
@@ -3503,6 +3555,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 76.2 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89fc6452-addb-4b5d-92d9-377f8f8d31c9")
+		(property "Reference" "RV10"
+			(at 76.2 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 76.2 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Center zero adjust"
+			(at 76.2 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "551c3a02-dc5f-48e3-a0ad-b234936d032f")
+		)
+		(pin "1"
+			(uuid "b9b37fc1-ef09-402b-ae80-7fdcb1c26e64")
+		)
+		(pin "3"
+			(uuid "ee43c8de-3194-437f-ad38-5ded81f86402")
+		)
+		(instances
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "RV10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 177.8 107.95 180)
 		(unit 1)
@@ -3590,7 +3723,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "33k"
 			(at 95.25 34.29 90)
 			(effects
 				(font
@@ -4096,74 +4229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 76.2 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b410cab6-2a88-43f2-aa40-5f7a84543976")
-		(property "Reference" "R2"
-			(at 76.2 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 76.2 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 76.454 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 76.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43bc5b80-9869-4ce6-9d19-8decc60d5c90")
-		)
-		(pin "2"
-			(uuid "bcc84f0a-b027-4e62-9050-e8050c8bc03f")
-		)
-		(instances
-			(project "DMH_Transistor_VCA_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC548")
 		(at 162.56 88.9 0)
 		(unit 1)
@@ -4388,6 +4453,87 @@
 			(project "DMH_Transistor_VCA_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 76.2 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5799645-5d9c-413c-aee0-b1e3afc36d21")
+		(property "Reference" "RV9"
+			(at 76.2 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 76.2 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Center zero adjust"
+			(at 76.2 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba027edf-6377-4a9c-ac21-618bccfa8cb7")
+		)
+		(pin "1"
+			(uuid "d51d9dec-e189-47d2-a472-718221d6f5f7")
+		)
+		(pin "3"
+			(uuid "7e9b1100-eb04-4f64-ac61-5376b0c56293")
+		)
+		(instances
+			(project "DMH_Transistor_VCA_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "RV9")
 					(unit 1)
 				)
 			)
@@ -4776,74 +4922,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 76.2 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7e5dd0b-ec0e-4c0a-bb3b-da002127b1de")
-		(property "Reference" "R5"
-			(at 76.2 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 76.2 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 76.454 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 76.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad200c67-0bcc-4dba-8181-00f508337a72")
-		)
-		(pin "2"
-			(uuid "f64de817-942f-4350-835b-44c419f1f815")
-		)
-		(instances
-			(project "DMH_Transistor_VCA_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 133.35 0)
 		(unit 1)
@@ -4927,7 +5005,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "33k"
 			(at 95.25 72.39 90)
 			(effects
 				(font
