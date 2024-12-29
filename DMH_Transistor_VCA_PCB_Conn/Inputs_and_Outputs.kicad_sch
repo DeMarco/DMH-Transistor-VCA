@@ -4695,9 +4695,9 @@
 		(at 38.1 260.35 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b33007f9-95c3-45ce-9e64-abba065640d2")
 		(property "Reference" "J0"
 			(at 33.02 260.35 90)
