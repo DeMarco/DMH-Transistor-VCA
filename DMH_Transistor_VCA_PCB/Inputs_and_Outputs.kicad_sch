@@ -3321,7 +3321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "CV 2 A Amount"
+		(property "Function" "CV 2A Amt"
 			(at 72.898 107.95 0)
 			(effects
 				(font
@@ -3355,9 +3355,9 @@
 		(at 38.1 260.35 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "04bace45-728d-488e-b870-d05e20fd0a2f")
 		(property "Reference" "J0"
 			(at 33.02 260.35 90)
@@ -3763,7 +3763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "CV 1 B Amount"
+		(property "Function" "CV 1B Amt"
 			(at 73.406 209.55 0)
 			(effects
 				(font
@@ -3994,7 +3994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "CV 1 A Amount"
+		(property "Function" "CV 1A Amt"
 			(at 72.898 82.55 0)
 			(effects
 				(font
@@ -4473,7 +4473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "CV 2 B Amount"
+		(property "Function" "CV 2B Amt"
 			(at 72.898 234.95 0)
 			(effects
 				(font
