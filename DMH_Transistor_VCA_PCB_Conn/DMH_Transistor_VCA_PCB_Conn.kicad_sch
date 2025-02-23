@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "58f4306d-5387-4983-bb08-41a2313fd315")
 	(paper "A4")
 	(title_block
@@ -69,6 +69,10 @@
 	(sheet
 		(at 25.4 63.5)
 		(size 25.4 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -99,143 +103,143 @@
 		)
 		(pin "Output A Jack" input
 			(at 50.8 77.47 0)
+			(uuid "ddeb3711-5f3f-44f7-a252-01ce82424e94")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ddeb3711-5f3f-44f7-a252-01ce82424e94")
 		)
 		(pin "Input A Jack" output
 			(at 50.8 73.66 0)
+			(uuid "6fc21d18-c03c-4717-9608-afd7db0db34c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6fc21d18-c03c-4717-9608-afd7db0db34c")
 		)
 		(pin "CV 1 A Jack" output
 			(at 50.8 85.09 0)
+			(uuid "1aeea1ae-bfd3-463b-a90e-0b5e0f96735c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1aeea1ae-bfd3-463b-a90e-0b5e0f96735c")
 		)
 		(pin "CV 2 A Pot" output
 			(at 50.8 96.52 0)
+			(uuid "faa3a78a-2150-4fd0-8ab6-9614a9f681b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "faa3a78a-2150-4fd0-8ab6-9614a9f681b1")
 		)
 		(pin "Offset A Pot" output
 			(at 50.8 81.28 0)
+			(uuid "0df2a859-f3fb-4afb-8fcf-ea132c4cb7a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0df2a859-f3fb-4afb-8fcf-ea132c4cb7a4")
 		)
 		(pin "CV 1 A Pot" output
 			(at 50.8 88.9 0)
+			(uuid "0bba4b14-b4fa-4d0b-b3c8-24b2278e12ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0bba4b14-b4fa-4d0b-b3c8-24b2278e12ad")
 		)
 		(pin "CV 2 A Jack" output
 			(at 50.8 92.71 0)
+			(uuid "e5a78728-7508-4eee-bc74-012595511586")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e5a78728-7508-4eee-bc74-012595511586")
 		)
 		(pin "CV 1 B Jack" output
 			(at 50.8 120.65 0)
+			(uuid "83285ae6-bf03-4830-9df0-aa1c5fe3935d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "83285ae6-bf03-4830-9df0-aa1c5fe3935d")
 		)
 		(pin "CV 1 B Pot" output
 			(at 50.8 124.46 0)
+			(uuid "bfa9d400-a5e8-4671-9312-d51b387a3733")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bfa9d400-a5e8-4671-9312-d51b387a3733")
 		)
 		(pin "CV 2 B Pot" output
 			(at 50.8 132.08 0)
+			(uuid "9b9e3f5b-220b-4df6-a50a-719f6d00cf9f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9b9e3f5b-220b-4df6-a50a-719f6d00cf9f")
 		)
 		(pin "Offset B Pot" output
 			(at 50.8 109.22 0)
+			(uuid "8d700a12-9340-48d3-b951-55878576611d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8d700a12-9340-48d3-b951-55878576611d")
 		)
 		(pin "Input B Jack" output
 			(at 50.8 113.03 0)
+			(uuid "4891f10f-85bb-41f3-a76f-0eedcef3fd3a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4891f10f-85bb-41f3-a76f-0eedcef3fd3a")
 		)
 		(pin "CV 2 B Jack" output
 			(at 50.8 128.27 0)
+			(uuid "ce9d616c-58fb-4983-b3c9-a87ffa5253a0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ce9d616c-58fb-4983-b3c9-a87ffa5253a0")
 		)
 		(pin "Output B Jack" input
 			(at 50.8 116.84 0)
+			(uuid "2d4a0726-945a-4714-af60-897e82fe6350")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2d4a0726-945a-4714-af60-897e82fe6350")
 		)
 		(instances
 			(project "DMH_Transistor_VCA_PCB_Conn"
@@ -250,4 +254,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

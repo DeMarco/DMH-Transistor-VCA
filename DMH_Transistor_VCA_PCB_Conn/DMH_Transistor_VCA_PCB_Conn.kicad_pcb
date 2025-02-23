@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -14,34 +14,34 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user "User.LayoutGuide")
-		(51 "User.2" user)
-		(52 "User.3" user)
-		(53 "User.4" user)
-		(54 "User.5" user)
-		(55 "User.6" user)
-		(56 "User.7" user)
-		(57 "User.8" user)
-		(58 "User.9" user "User.FrontPanelEdge")
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user "User.LayoutGuide")
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user "User.FrontPanelEdge")
 	)
 	(setup
 		(stackup
@@ -85,10 +85,11 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(grid_origin 50 30)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -98,7 +99,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -106,16 +106,20 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
+			(plot_black_and_white yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
@@ -167,21 +171,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bcdacc8f-c719-4849-bff6-f7d6369337eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -194,7 +185,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -391,6 +382,7 @@
 			(pintype "passive")
 			(uuid "dc0eddbb-ed1b-4927-b99d-1b839af50b88")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -427,19 +419,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbbf8ef9-588a-42d6-be62-b2c067ae1a1e")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -764,7 +743,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "982b27d7-ba5f-4853-a1d4-7cbbecf7783c")
 		)
@@ -775,7 +754,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "8bb50ed2-1bfb-4d4e-96ee-3ba1b87a7c1a")
 		)
@@ -847,6 +826,7 @@
 			(pintype "passive")
 			(uuid "c830320c-efe8-4cdb-b307-2f19b9128d47")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/P110KH1_0F15BR10K.STEP"
 			(offset
 				(xyz 2.5 11 6)
@@ -883,19 +863,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f65d833f-11da-40a5-9511-914a9f8c1982")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1220,7 +1187,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "5f7faa9c-81f2-4469-859f-557c5fd0a118")
 		)
@@ -1231,7 +1198,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "a76435cd-c7f8-4f44-93a5-aa27e1c9df49")
 		)
@@ -1303,6 +1270,7 @@
 			(pintype "passive")
 			(uuid "6950006a-00b8-40c7-b2b9-3463b60000ca")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/P110KH1_0F15BR10K.STEP"
 			(offset
 				(xyz 2.5 11 6)
@@ -1339,19 +1307,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99258347-4e2f-41f3-827e-580bbbb3d4f8")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1572,6 +1527,7 @@
 			(pintype "passive")
 			(uuid "5596727e-82b6-4f1a-8f89-df03c4834a8f")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1608,19 +1564,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fc9663c5-8e98-4f9a-a707-ed85c2bbbe9c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1945,7 +1888,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "06e399a6-0587-4ad9-a55f-b13db7d186bb")
 		)
@@ -1956,7 +1899,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "f2488e29-f6a5-44f0-b3d8-9bc54ef1e75a")
 		)
@@ -2028,6 +1971,7 @@
 			(pintype "passive")
 			(uuid "1935d0d9-8d1f-4971-88fe-e81062bdc089")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/P110KH1_0F15BR10K.STEP"
 			(offset
 				(xyz 2.5 11 6)
@@ -2068,21 +2012,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2d35f96-dceb-446f-86a7-e28e620f0d06")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2095,7 +2026,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2292,6 +2223,7 @@
 			(pintype "passive")
 			(uuid "9e15ea8b-5524-4b0b-8a8e-a01198bec39d")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2329,19 +2261,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96b263a0-52f5-4b24-aafa-a27c8335cdf2")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2566,7 +2485,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "ad260f9a-8aaa-45d7-b354-aedc63e86d8f")
 		)
@@ -2630,6 +2549,7 @@
 			(pintype "passive")
 			(uuid "5fcbb5b2-7dc1-4081-a734-fcd6ed055b56")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alpha_RD901F-40-00D_Single_Vertical.wrl"
 			(hide yes)
 			(offset
@@ -2690,19 +2610,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Potentiometer_TT_P110KH1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b6acb5f-9c47-4c13-9c59-71a604041ffe")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3027,7 +2934,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "3a908d01-fcd3-4bcd-b5de-77b4deedc08d")
 		)
@@ -3038,7 +2945,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "f7e0a786-c1af-49c0-b5ef-0f0e36764c6a")
 		)
@@ -3110,6 +3017,7 @@
 			(pintype "passive")
 			(uuid "6e4bd115-5e19-4006-8436-225f36497965")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/P110KH1_0F15BR10K.STEP"
 			(offset
 				(xyz 2.5 11 6)
@@ -3147,19 +3055,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "414e1e82-efe6-40d1-8131-1728fd9de930")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3384,7 +3279,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "c3add76a-0ea7-4a37-8771-3d513e58caec")
 		)
@@ -3448,6 +3343,7 @@
 			(pintype "passive")
 			(uuid "36e461f0-09b4-4ca1-8d02-c5776eedb5dd")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alpha_RD901F-40-00D_Single_Vertical.wrl"
 			(hide yes)
 			(offset
@@ -3510,20 +3406,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5c233a06-1773-4e85-8337-88fad9e1dec9")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3826,6 +3708,7 @@
 			(pintype "passive")
 			(uuid "af9a07da-a796-4117-8f79-1bec1a73f302")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3864,20 +3747,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0f37a097-8855-4f6f-aa9e-352a4a6a52a2")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4081,7 +3950,7 @@
 			(uuid "12d464cd-eb0a-4c9e-ae39-8b9ad34e795b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -8.89 -90)
+			(at 0 -8.89 270)
 			(layer "B.Fab")
 			(uuid "0b481d3f-3a0c-47da-9491-f2eac3ae898f")
 			(effects
@@ -4180,6 +4049,7 @@
 			(pintype "passive")
 			(uuid "ad964503-b465-4da1-9bc9-d0de6ed15f93")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4199,7 +4069,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "B.SilkS")
 		(uuid "de47ead9-8b5d-4bcb-ad80-ddf34a004046")
 	)
@@ -4210,7 +4080,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "08369415-34f4-4b5b-a64d-2b03e570920c")
 	)
@@ -4221,7 +4091,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "16739cf5-aab4-48d9-9621-f4287e706fd6")
 	)
@@ -4232,7 +4102,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "233e1056-7beb-4d85-b724-517424b5c90f")
 	)
@@ -4243,7 +4113,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "36ed841c-6d5f-4d9e-b46a-d345d2fde54c")
 	)
@@ -4254,7 +4124,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "4512bacf-6b6a-472f-9639-201487fe01fb")
 	)
@@ -4265,7 +4135,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "4afb1c8a-1574-46c1-8dbf-82e13657d9ea")
 	)
@@ -4276,7 +4146,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "75e0d2c8-e909-4450-8181-845b0f318533")
 	)
@@ -4287,7 +4157,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "8c760932-9529-431a-b882-11c71b839c52")
 	)
@@ -4298,7 +4168,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "8db026ff-043c-4044-8a86-1f95ae5efdcb")
 	)
@@ -4309,7 +4179,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "95e56c38-2525-4683-912e-f51a421a2fe3")
 	)
@@ -4320,7 +4190,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "ba90794f-7421-4ed9-8bff-6e2c1375a67d")
 	)
@@ -4331,7 +4201,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "db368402-e948-4b45-aaf6-a8060b094717")
 	)
@@ -4342,7 +4212,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "e0ab9a76-3135-4e02-acf0-346f7472a104")
 	)
@@ -4353,7 +4223,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "f37c4b85-cbf5-4f2d-a63e-bc78cd77beb5")
 	)
@@ -4632,7 +4502,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "00a9661b-bc4e-493a-9a57-d5b24a34753b")
 	)
@@ -5060,7 +4930,7 @@
 	(zone
 		(net 1)
 		(net_name "GND")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "78b34cf6-50bf-40dd-b395-12429a85ae24")
 		(name "Ground_plane")
 		(hatch edge 0.5)
@@ -6713,4 +6583,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
