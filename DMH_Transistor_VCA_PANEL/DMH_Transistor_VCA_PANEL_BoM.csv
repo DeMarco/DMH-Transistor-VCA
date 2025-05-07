@@ -1,0 +1,3 @@
+Reference,Value,Footprint,Qty
+"H5,H12",Offset,SynthStuff:Pot_Cutout_Small,2
+"H6,H7,H13,H14",-- mixed values --,SynthStuff:Pot_Cutout_Tiny_attv,4
